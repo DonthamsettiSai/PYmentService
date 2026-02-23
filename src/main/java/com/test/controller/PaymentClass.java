@@ -10,8 +10,10 @@ public class PaymentClass {
 	
 	@GetMapping("/getPayment")
 	public String getPayment() {
-		return "payment done sucessfully :: ";
+		System.out.println("Entered in PaymentClass Started ");
+		String str = "payment done sucessfully :: ";
+		System.out.println("Ended in PaymentClass Ended ");		
+		return str;
 	}
-
 
 }
